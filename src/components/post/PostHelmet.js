@@ -13,10 +13,10 @@ const PostHelmet = ({
         meta={[{ name: 'description', content: postDescription }]}
         title={`${postTitle} | ${siteTitle}`}
     >
-        <meta name="twitter:card" content={postDescription} />
-        <meta name="twitter:site" content="@_seanmcp" />
+        <meta name="twitter:card" content={'summary'} />
+        <meta name="twitter:site" content={'@_seanmcp'} />
         <meta name="twitter:title" content={postTitle} />
-        {/* <meta name="twitter:description" content="View the album on Flickr." /> */}
+        <meta name="twitter:description" content={postDescription} />
         {postImageUrl && <meta name="twitter:image" content={postImageUrl} />}
     </Helmet>
 );
