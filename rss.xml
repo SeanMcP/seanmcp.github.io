@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sean McPherson]]></title><description><![CDATA[A personal website for Sean McPherson]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 05 Dec 2018 11:45:47 GMT</lastBuildDate><item><title><![CDATA[Why Gatsby?]]></title><description><![CDATA[After deciding to transition away from Medium and  launch my own blog , the next decision to make was selecting a publishing platform. I…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//why-gatsby/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//why-gatsby/</guid><pubDate>Tue, 04 Dec 2018 12:12:03 GMT</pubDate><content:encoded>&lt;p&gt;After deciding to transition away from Medium and &lt;a href=&quot;/articles/why-a-blog&quot;&gt;launch my own blog&lt;/a&gt;, the next decision to make was selecting a publishing platform.&lt;/p&gt;
+&lt;p&gt;I have dabbled with creating a custom blogging platform before, leveraging Markdown files and various APIs, but I don’t have confidence in my own ability to make something resilient from scratch in a reasonable time period.&lt;/p&gt;
+&lt;p&gt;In looking for a self-hosted platform that would satisfy my needs, I considered a few options:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;del&gt;Ghost&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ghost is a neat little publishing platform about which I have heard good reviews. I would have enjoyed the opportunity to flex my Node muscles when developing. However, I’m not interested in paying for a platform at this time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;del&gt;Wordpress&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Story time: when I was in high school, I started a web design and development company with a classmate. My partner quickly picked up Wordpress development and wanted to use it on all our projects. But try as I might, I couldn’t figure Wordpress out. Feeling like a failure, I stuck to project management and design.&lt;/p&gt;
+&lt;p&gt;(That business partner is now a PhD student in California using machine-learning algorithms to identify bird calls. Pretty neat!)&lt;/p&gt;
+&lt;p&gt;To this day, Wordpress remains a boogeyman for me. Even though it is a standard on the web, but I wasn’t interested.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;del&gt;Jekyll&lt;/del&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jekyll looks neat and integrates well with GitHub pages. I’m not a huge fan of HTML templating, but they seem to have streamlined things pretty well. But I have never worked in Ruby or with &lt;code class=&quot;language-text&quot;&gt;gems&lt;/code&gt; before and wasn’t looking to dive into something totally new for this project.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gatsby&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That left Gatsby, a “blazing fast” React- and GraphQL-powered static site generator. I tinked around with Gatsby a few times in the past but never got anywhere. Now with a real project in mind, I decided to go a little deeper.&lt;/p&gt;
+&lt;p&gt;The development process in Gatsby wasn’t perfect, but it felt like a natural step for a React developer. I enjoyed using React components, out-of-the-box routing, hot-reloading, and leveraging GraphQL. Integrating GraphiQL IDE was a brilliant idea.&lt;/p&gt;
+&lt;p&gt;That being said, there were some hiccups a long the way. The newer Gatsby docs are great, but there are some older pages up that were either out-of-date or unclear. I had to modify some code samples taken from the docs in order for things to work correctly.&lt;/p&gt;
+&lt;p&gt;I was also thrown by the process by which Gatsby generates pages. I relied heavily on the documentation (see above) to understand the workings of &lt;code class=&quot;language-text&quot;&gt;gatsby-node.js&lt;/code&gt;, and it was only after a few days that I started to wrap my head around it.&lt;/p&gt;
+&lt;p&gt;But once the ball got rolling, it felt more and more natural. If I were to start over today, I would choose Gatsby again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Troubleshooting Gatsby on GitHub Pages]]></title><description><![CDATA[https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//troubleshooting-gatsby-on-github-pages/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//troubleshooting-gatsby-on-github-pages/</guid><pubDate>Tue, 04 Dec 2018 07:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/&quot;&gt;https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why a blog?]]></title><description><![CDATA[For over a year and half I have been happily blogging on Medium. I was quick to sign up when the platform first launched (and snag that…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//why-a-blog/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//why-a-blog/</guid><pubDate>Tue, 04 Dec 2018 07:00:00 GMT</pubDate><content:encoded>&lt;p&gt;For over a year and half I have been happily blogging on Medium. I was quick to sign up when the platform first launched (and snag that elusive &lt;a href=&quot;https://medium.com/@seanmcp&quot;&gt;@seanmcp&lt;/a&gt; handle) but was slow to start writing.&lt;/p&gt;
+&lt;p&gt;Then, in the summer of 2017, I enrolled in the Iron Yard and was encouraged to blog my process. After looking at Blogger for a minute (seriously), I settled on Medium. I appreciated the design esthetic and attention to typographical detail. Composing was simple and I found code blocks quite useful.&lt;/p&gt;
+&lt;p&gt;I never really settled into a consistent writing schedule but did find some success writing about JavaScript and React. My most popular article, &lt;a href=&quot;https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7&quot;&gt;“How to use emojis in React”&lt;/a&gt;, continues to receive “applause” six months after I published.&lt;/p&gt;
+&lt;p&gt;All that is to say, Medium was a perfectly suitable platform for what I needed. And it still is a good platform, but my needs have changed.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@nikitonsky/medium-is-a-poor-choice-for-blogging-bb0048d19133&quot;&gt;Recent&lt;/a&gt; &lt;a href=&quot;https://twitter.com/dan_abramov/status/1068903909119483904&quot;&gt;criticism&lt;/a&gt; &lt;a href=&quot;https://twitter.com/snookca/status/1068866664257732608&quot;&gt;of Medium&lt;/a&gt; aside, ownership of my content was the biggest catalyst for looking elsewhere. Medium is popular now, but will it be in two years? Five years? Ten years? Will we be reading Medium posts about terraforming when we colonize the moon? Or will Medium’s popularity wane and be shuttered before we get there? No one can know.&lt;/p&gt;
+&lt;p&gt;Regardless of the future of the platform, I’d like my content to live on. My goal is to help people (help people), so my words—as feeble as they are—need to persist long enough to do that.&lt;/p&gt;
+&lt;p&gt;“The grass withers and the flowers fade”; nothing is permanent in this life. But having more direct ownership and control of my content puts me in a better position to continue helping people for the long-run.&lt;/p&gt;
+&lt;p&gt;That’s why I’m starting this blog. For the immediate future, I will be cross-posting everything I write on Medium and linking back here. After then? We’ll see what the web looks like.&lt;/p&gt;
+&lt;p&gt;In the meantime, thank you for stopping by. Check back weekly or subscribe with your favorite RSS reader.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Cut Your Hair]]></title><description><![CDATA[On morning in the fall of 2010, I left the dorm and biked my shaggy-headed self to the local barber. He charged me  $ 10.00 for a simple…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//how-to-cut-your-hair/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//how-to-cut-your-hair/</guid><pubDate>Mon, 26 Nov 2018 14:29:00 GMT</pubDate><content:encoded>&lt;p&gt;On morning in the fall of 2010, I left the dorm and biked my shaggy-headed self to the local barber. He charged me $10.00 for a simple haircut with the clippers, and I left a two-dollars tip.&lt;/p&gt;
+&lt;p&gt;As I stepped out of the door and felt the cool breeze across my freshly shorn head, I thought to myself:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m never going to pay for a haircut again.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I now realize that $12.00 is a bargain for a haircut, but my college budget wouldn’t allow it. And even in the years following graduation, I never found myself with$20 laying around for a hair cut.&lt;/p&gt;
+&lt;p&gt;That was eight years ago now, and I haven’t—to the best of my recollection—been to the barber since. (I had planned to go before my wedding in 2014 but put it off too long and wound up cutting it myself the day before)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hi-folks/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hi-folks/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean. A small river named
+Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This however showed weasel&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Well uncritical so misled&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
+view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
+&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
+Lane. Pityful a rethoric question ran over her cheek, then she continued her
+way. On her way she met a copy.&lt;/p&gt;
+&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with
+&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
+they abused her for their projects again and again. And if she hasn’t been
+rewritten, then they are still using her.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
+mouth. Even the all-powerful Pointing has no control about the blind texts it is
+an almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;So baboon this&lt;/li&gt;
+&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
+&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
+&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
+impassive fruitlessly shut&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
+back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
+Village and the subline of her own road, the Line Lane. Pityful a rethoric
+question ran over her cheek, then she continued her way. On her way she met a
+copy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and
+return to its own, safe country.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
+and dragged her into their agency, where they abused her for their projects
+again and again. And if she hasn’t been rewritten, then they are still using
+her. Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts.&lt;/p&gt;
+&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
+&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+large language ocean. A small river named Duden flows by their place and
+supplies it with the necessary regelialia. It is a paradisematic country, in
+which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
+almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
+advised her not to do so, because there were thousands of bad Commas, wild
+Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
+&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
+&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
+the way. When she reached the first hills of the Italic Mountains, she had a
+last view back on the skyline of her hometown Bookmarksgrove, the headline of
+Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+rethoric question ran over her cheek, then she continued her way. On her way she
+met a copy.&lt;/p&gt;
+&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and return
+to its own, safe country. But nothing the copy said could convince her and so it
+didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
+with Longe and Parole and dragged her into their agency, where they abused her
+for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//my-second-post/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my   on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a great…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hello-world/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre style=&quot;counter-reset: linenumber 0&quot; class=&quot;language-js line-numbers&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// A comment&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`Hello, I&apos;m &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;name&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;!`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; obj &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    boolean&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; hello&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    number&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    regex&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token regex&quot;&gt;/ab+c/&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;    string&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Sean&apos;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot; style=&quot;white-space: normal; width: auto; left: 0;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This is my &lt;code class=&quot;language-text&quot;&gt;first post&lt;/code&gt; on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAcEAADAQACAwAAAAAAAAAAAAABESEAMUGBobH/2gAIAQEAAT8hsTTH2wx5gg2ZgM8d5JIfmMRAIe//2gAMAwEAAgADAAAAEMgv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAcEAEBAAIDAQEAAAAAAAAAAAABEQAxIWGBQeH/2gAIAQEAAT8QRswtDR5g4a7R5C/RHFM3BKk6zThoVp3lEYcnjGIYES7/ACZ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e8976/salty_egg.jpg 148w,
+/static/8058f3f26913fea3b6a89a73344fe94a/63df2/salty_egg.jpg 295w,
+/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg 590w,
+/static/8058f3f26913fea3b6a89a73344fe94a/85e3d/salty_egg.jpg 885w,
+/static/8058f3f26913fea3b6a89a73344fe94a/d1924/salty_egg.jpg 1180w,
+/static/8058f3f26913fea3b6a89a73344fe94a/9452e/salty_egg.jpg 1770w,
+/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item></channel></rss>
