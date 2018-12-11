@@ -1,3 +1,3 @@
 # seanmcp.github.io
 
-A personal blog powered by Gatsby
+A simple landing & redirecting page
