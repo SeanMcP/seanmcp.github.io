@@ -46,4 +46,4 @@ social.forEach(function(site) {
     ul.appendChild(li);
 });
 
-console.log('I see you there! Make sure to check out of my other sites. 👍');
+console.log('I see you there! Make sure to check out my other sites. 👍');
