@@ -22,7 +22,7 @@ var social = [
     {
         icon: '📬',
         text: 'Email',
-        href: 'mailto:sean@seanmcp.com'
+        href: 'mailto:seanmcp25@gmail.com.com'
     }
 ];
 
