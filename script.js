@@ -10,19 +10,24 @@ var social = [
         href: 'https://github.com/seanmcp'
     },
     {
+        icon: '📦',
+        text: 'NPM',
+        href: 'https://www.npmjs.com/~seanmcp'
+    },
+    {
+        icon: '🦜',
+        text: 'Twitter',
+        href: 'https://twitter.com/_seanmcp'
+    },
+    {
         icon: '👔',
         text: 'LinkedIn',
         href: 'https://linkedin.com/in/seanmcp'
     },
     {
-        icon: '🦉',
-        text: 'Twitter',
-        href: 'https://twitter.com/_seanmcp'
-    },
-    {
         icon: '📬',
         text: 'Email',
-        href: 'mailto:seanmcp@pm.me'
+        href: 'mailto:sean@seanmcp.com'
     }
 ];
 
