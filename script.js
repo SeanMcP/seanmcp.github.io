@@ -15,7 +15,7 @@ var social = [
         href: 'https://www.npmjs.com/~seanmcp'
     },
     {
-        icon: '🦜',
+        icon: '🐦',
         text: 'Twitter',
         href: 'https://twitter.com/_seanmcp'
     },
