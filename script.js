@@ -17,7 +17,7 @@ var social = [
     {
         icon: '🐦',
         text: 'Twitter',
-        href: 'https://twitter.com/_seanmcp'
+        href: 'https://twitter.com/snmcp'
     },
     {
         icon: '👔',
